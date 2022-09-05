@@ -14,28 +14,33 @@ const Home = () => {
     if (!data) {
         return (
             <Layout title='Detail User | NextApp'>
-                <div className="container mx-auto pt-10">
-                    <div className="flex items-center gap-10 justify-center">
-                        <div role="status" className=" w-full animate-pulse">
-                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mx-auto mb-5"></div>
-                            <a className="block p-6 max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                                <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-56 m-auto mb-4"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[320px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[340px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[340px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <span className="sr-only">Loading...</span>
-                            </a>
-                        </div>
+                <div className="container mx-auto pt-14">
+                    <div role="status" className=" w-full animate-pulse">
+                        <div className="h-5 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[200px] mx-auto mb-5"></div>
+                        <a className="block p-6 max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                            <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-56 m-auto mb-4"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[320px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[340px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[215px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[215px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[220px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[230px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[210px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[221px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[225px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[227px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[229px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[210px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[229px] mb-2.5"></div>
+
+                            <span className="sr-only">Loading...</span>
+                        </a>
                     </div>
                 </div>
             </Layout >
@@ -45,7 +50,7 @@ const Home = () => {
         <Layout title='Detail User | NextApp'>
             <div className="container mx-auto pt-10">
                 <p className='text-3xl text-center font-bold my-5'>Detail User</p>
-                <div className="flex flex-wrap gap-10 justify-around">
+                <div className="flex flex-wrap gap-10 justify-center">
                     <Link href="/">
                         <a className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">{data?.name}</h5>
@@ -66,6 +71,7 @@ const Home = () => {
                         </a>
                     </Link>
                 </div>
+
             </div>
         </Layout>
     )
