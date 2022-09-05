@@ -15,24 +15,30 @@ const Home = () => {
     (
         <Layout title='Detail User | NextApp'>
             <div className="container mx-auto pt-10">
-                <div className="flex flex-wrap gap-10 justify-around">
-                    <Link href="/">
-                        <a className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <div role="status" className="max-w-sm animate-pulse">
-                                <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
-                                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-                                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-                                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px]"></div>
-                                <span className="sr-only">Loading...</span>
-                            </div>
-
+                <div className="flex items-center gap-10 justify-center">
+                    <div role="status" className=" w-full animate-pulse">
+                        <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mx-auto mb-5"></div>
+                        <a className="block p-6 max-w-sm bg-white mx-auto rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                            <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-56 m-auto mb-4"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[320px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[330px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[340px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[340px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[360px] mb-2.5"></div>
+                            <div className="h-2 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
+                            <span className="sr-only">Loading...</span>
                         </a>
-                    </Link>
+                    </div>
                 </div>
             </div>
-        </Layout>
+        </Layout >
     )
 
     return (
@@ -64,22 +70,6 @@ const Home = () => {
         </Layout>
     )
 }
-// export const getStaticPaths: GetStaticPaths = async () => {
-//     const users = await getUsers()
-//     const paths = users.map((user) => ({
-//         params: { id: user.id.toString() }
-//     }))
-//     return {
-//         paths,
-//         fallback: 'blocking'
-//     }
-// }
 
-// export const getStaticProps: GetStaticProps = async ({ params }) => {
-//     return {
-//         props: { user: await getUser(String(params?.id)) },
-//         revalidate: 60
-//     }
-// }
 
 export default Home
