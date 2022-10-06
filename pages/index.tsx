@@ -25,8 +25,6 @@ const Home = ({ users }: HomeProps) => {
               </Link>
             </>
           ))}
-
-
         </div>
       </div>
     </Layout>
